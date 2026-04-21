@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: #FDFBF7;
+    color: #4A4A4A;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-accent-orange hover:bg-accent-orange-dark text-white font-bold py-4 px-10 rounded-full shadow-lg transition-all duration-300 transform hover:scale-105 text-lg;
+  }
+  .btn-secondary {
+    @apply border-2 border-accent-orange text-accent-orange hover:bg-accent-orange hover:text-white font-bold py-3 px-8 rounded-full transition-all duration-300 text-base;
+  }
+  .section-title {
+    @apply text-3xl md:text-4xl font-bold text-text-main text-center mb-4;
+  }
+  .section-subtitle {
+    @apply text-text-sub text-center text-lg mb-12;
+  }
+}
