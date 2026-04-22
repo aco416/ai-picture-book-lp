@@ -8,7 +8,7 @@ export default function Header() {
             AI絵本作り講座
           </span>
         </div>
-        <a href="#cta" className="btn-secondary text-sm hidden sm:inline-block">
+        <a href="https://www.acolabo.com/orde" className="btn-secondary text-sm hidden sm:inline-block">
           講座に申し込む
         </a>
       </div>

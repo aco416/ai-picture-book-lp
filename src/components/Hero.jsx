@@ -25,7 +25,7 @@ export default function Hero() {
             世界にひとつだけの絵本を、たった2ヶ月で。
           </p>
 
-          <a href="#cta" className="btn-primary inline-block mb-4">
+          <a href="https://www.acolabo.com/orde" className="btn-primary inline-block mb-4">
             講座に申し込む →
           </a>
         </div>

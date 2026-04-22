@@ -23,7 +23,7 @@ export default function CTA() {
         </p>
         {/* メインCTAボタン */}
         <a
-          href="#"
+          href="https://www.acolabo.com/orde"
           className="btn-primary inline-block text-xl px-14 py-5 shadow-xl"
         >
           講座に申し込む →
