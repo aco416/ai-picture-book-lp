@@ -31,12 +31,18 @@ export default function CTA() {
 
         {/* フッター */}
         <div className="mt-16 pt-8 border-t border-flower-pink/30">
-          <nav className="mb-4">
+          <nav className="mb-4 flex justify-center gap-6">
             <a
               href="https://www.acolabo.com/"
               className="text-text-sub hover:text-text-main text-sm transition-colors duration-200"
             >
               HOME
+            </a>
+            <a
+              href="https://www.acolabo.com/tokushou"
+              className="text-text-sub hover:text-text-main text-sm transition-colors duration-200"
+            >
+              特定商取引法に基づく表記
             </a>
           </nav>
           <p className="text-text-light text-sm">
