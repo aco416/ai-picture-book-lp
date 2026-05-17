@@ -106,14 +106,15 @@ function MainPage() {
                   </p>
                 </div>
               </div>
-              <div className="rounded-[2rem] bg-[#f8f4ee] p-8 text-center shadow-sm">
-                <div className="mx-auto flex h-72 max-w-sm items-center justify-center rounded-[2rem] bg-white text-gray-400">
-                  プロフィール画像エリア
-                </div>
-                <p className="mt-4 text-sm text-gray-500">
-                  ※ aco_profile.png を追加すると画像表示できます
-                </p>
-              </div>
+<div className="rounded-[2rem] bg-[#f8f4ee] p-8 text-center shadow-sm">
+  <div className="mx-auto max-w-sm overflow-hidden rounded-[2rem] bg-white shadow-md">
+    <img
+      src="/aco_profile.png"
+      alt="あこ（Aco）プロフィール"
+      className="h-auto w-full object-cover"
+    />
+  </div>
+</div>
             </div>
           </div>
         </section>
