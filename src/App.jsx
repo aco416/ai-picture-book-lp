@@ -58,7 +58,14 @@ function MainPage() {
 
       <main>
         <section className="relative flex min-h-screen items-center overflow-hidden px-6 pt-24">
-          <div className="absolute inset-0 bg-gradient-to-br from-[#fff7ed] via-[#f8f4ee] to-[#e8f5f0]" />
+  <div className="absolute inset-0">
+    <img
+      src="/hero_new.png"
+      alt="Hero Background"
+      className="h-full w-full object-cover opacity-30"
+    />
+    <div className="absolute inset-0 bg-gradient-to-br from-[#fff7ed]/90 via-[#f8f4ee]/85 to-[#e8f5f0]/90" />
+  </div>
           <div className="relative z-10 mx-auto max-w-6xl py-24">
             <p className="mb-6 inline-block rounded-full bg-white/80 px-5 py-2 text-sm font-bold text-orange-500 shadow-sm">
               AI × 出版で未来を創る
