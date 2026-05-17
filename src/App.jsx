@@ -79,11 +79,13 @@ function MainPage() {
                 style={{ fontFamily: 'serif' }}
               >
                 <span className="italic text-[#8bbd35]">AI</span>と出版の力で、<br />
-                あなたの「得意」を資産に変える<br />
+                あなたの「得意」を資<br />
+                産に変える。
               </h1>
 
               <p className="mt-8 text-xl leading-[2] text-[#4b5563]">
-                初心者に寄り添うやさしい伴走スタイルで、「出しておしまい」にしない収益導線づくりをサポートします。
+                三姉妹の母として、初心者に寄り添うやさしい伴走スタイルで<br />
+                「出しておしまい」にしない収益導線づくりをサポートします。
               </p>
 
               <div className="mt-12">
@@ -174,9 +176,9 @@ function MainPage() {
                   AIの力を活用し、一瞬で目を引く広報手段を提供。あなたの活動をより多くの人に、より強く届けるための強力なツールとなります。
                 </p>
                 <ul className="space-y-2 text-gray-700">
-                  <li>・AI漫画制作（自己紹介漫画・SNS用・LP用）</li>
+                  <li>・AI漫画制作（書籍・SNS・LP用）</li>
                   <li>・Webページ制作（活動の拠点作り）</li>
-                  <li>・アプリ開発（集客を最大化する特典アプリ等）</li>
+                  <li>・アプリ開発（集客を最大化する特典アプリ）</li>
                 </ul>
               </div>
             </div>
@@ -189,32 +191,79 @@ function MainPage() {
               実績・書籍紹介
             </h2>
 
-            <div className="mb-12 grid gap-6 md:grid-cols-3">
-              <div className="rounded-3xl bg-[#f8f4ee] p-8 text-center">
+            <div className="mb-14 grid gap-6 md:grid-cols-3">
+              <div className="rounded-[1.5rem] bg-[#f8f4ee] px-8 py-8 text-center shadow-sm">
                 <div className="text-5xl font-bold text-orange-500">12</div>
                 <p className="mt-3 font-bold">Kindleベストセラー冠</p>
               </div>
 
-              <div className="rounded-3xl bg-[#f8f4ee] p-8 text-center">
+              <div className="rounded-[1.5rem] bg-[#f8f4ee] px-8 py-8 text-center shadow-sm">
                 <div className="text-5xl font-bold text-orange-500">85%</div>
                 <p className="mt-3 font-bold">受講生出版率(2ヶ月以内)</p>
               </div>
 
-              <div className="rounded-3xl bg-[#f8f4ee] p-8 text-center">
+              <div className="rounded-[1.5rem] bg-[#f8f4ee] px-8 py-8 text-center shadow-sm">
                 <div className="text-5xl font-bold text-orange-500">38</div>
                 <p className="mt-3 font-bold">累計サポート書籍数</p>
               </div>
             </div>
 
-            <div className="grid gap-8 md:grid-cols-2">
-              <div className="flex h-64 items-center justify-center rounded-[2rem] bg-gradient-to-br from-orange-100 to-emerald-100 p-8 text-center text-xl font-bold">
-                AI絵本ノウハウ本<br />
-                （2日でベストセラー5冠達成）
+            <div className="grid gap-8 md:grid-cols-3">
+              <div className="rounded-[2rem] bg-[#fff3fb] px-8 py-8 text-center shadow-sm">
+                <div className="mx-auto mb-6 flex h-56 items-center justify-center">
+                  <img
+                    src="/book-1.png"
+                    alt="ビットコイン漫画の書影"
+                    className="max-h-full w-auto object-contain shadow-md"
+                  />
+                </div>
+
+                <a
+                  href="https://www.amazon.co.jp/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block rounded-full bg-gradient-to-b from-[#fff2a8] to-[#e4bd4c] px-10 py-2 text-lg font-medium text-[#111827] shadow-md transition hover:-translate-y-1 hover:shadow-lg"
+                >
+                  Amazon
+                </a>
               </div>
 
-              <div className="flex h-64 items-center justify-center rounded-[2rem] bg-gradient-to-br from-blue-100 to-orange-100 p-8 text-center text-xl font-bold">
-                ビットコイン漫画<br />
-                （コンテスト準大賞）
+              <div className="rounded-[2rem] bg-[#fff3fb] px-8 py-8 text-center shadow-sm">
+                <div className="mx-auto mb-6 flex h-56 items-center justify-center">
+                  <img
+                    src="/book-2.png"
+                    alt="AI絵本の作り方の書影"
+                    className="max-h-full w-auto object-contain shadow-md"
+                  />
+                </div>
+
+                <a
+                  href="https://www.amazon.co.jp/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block rounded-full bg-gradient-to-b from-[#fff2a8] to-[#e4bd4c] px-10 py-2 text-lg font-medium text-[#111827] shadow-md transition hover:-translate-y-1 hover:shadow-lg"
+                >
+                  Amazon
+                </a>
+              </div>
+
+              <div className="rounded-[2rem] bg-[#fff3fb] px-8 py-8 text-center shadow-sm">
+                <div className="mx-auto mb-6 flex h-56 items-center justify-center">
+                  <img
+                    src="/book-3.png"
+                    alt="ありがとうのまほうの書影"
+                    className="max-h-full w-auto object-contain shadow-md"
+                  />
+                </div>
+
+                <a
+                  href="https://www.amazon.co.jp/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block rounded-full bg-gradient-to-b from-[#fff2a8] to-[#e4bd4c] px-10 py-2 text-lg font-medium text-[#111827] shadow-md transition hover:-translate-y-1 hover:shadow-lg"
+                >
+                  Amazon
+                </a>
               </div>
             </div>
           </div>
@@ -235,9 +284,9 @@ function MainPage() {
               </div>
 
               <div className="rounded-[2rem] bg-white p-8 shadow-sm">
-                <h3 className="mb-4 text-xl font-bold">🎨 AI漫画・図解・アプリ作成</h3>
+                <h3 className="mb-4 text-xl font-bold">🎨 AI漫画・広報支援</h3>
                 <p className="leading-relaxed text-gray-700">
-                  自己紹介漫画、書籍やSNS用の図解、集客効果抜群の「診断アプリ」開発など。インパクトのある見せ方でファンを増やします。
+                  AI漫画によるストーリー発信や、集客効果抜群の「診断アプリ」開発など。インパクトのある見せ方でファンを増やします。
                 </p>
               </div>
 
@@ -259,7 +308,7 @@ function MainPage() {
 
             <div className="rounded-[2rem] bg-[#f8f4ee] p-8 shadow-sm">
               <p className="mb-8 text-center text-gray-700">
-                お気軽にご相談ください。
+                お気軽にご相談ください。2営業日以内にご返信いたします。
               </p>
 
               <form className="space-y-5">
@@ -267,7 +316,7 @@ function MainPage() {
                   <label className="mb-2 block font-bold">お名前</label>
                   <input
                     type="text"
-                    placeholder="山田 愛子"
+                    placeholder="山田 花子"
                     className="w-full rounded-xl border border-gray-200 px-4 py-3"
                   />
                 </div>
