@@ -235,9 +235,9 @@ function MainPage() {
               </div>
 
               <div className="rounded-[2rem] bg-white p-8 shadow-sm">
-                <h3 className="mb-4 text-xl font-bold">🎨 AI漫画・広報支援</h3>
+                <h3 className="mb-4 text-xl font-bold">🎨 AI漫画・図解・アプリ作成</h3>
                 <p className="leading-relaxed text-gray-700">
-                  AI漫画によるストーリー発信や、集客効果抜群の「診断アプリ」開発など。インパクトのある見せ方でファンを増やします。
+                  自己紹介漫画、書籍やSNS用の図解、集客効果抜群の「診断アプリ」開発など。インパクトのある見せ方でファンを増やします。
                 </p>
               </div>
 
