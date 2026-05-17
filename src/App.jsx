@@ -219,7 +219,7 @@ function MainPage() {
                 </div>
 
                 <a
-                  href="https://www.amazon.co.jp/"
+                  href="https://amzn.asia/d/06hSsood"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-block rounded-full bg-gradient-to-b from-[#fff2a8] to-[#e4bd4c] px-10 py-2 text-lg font-medium text-[#111827] shadow-md transition hover:-translate-y-1 hover:shadow-lg"
@@ -238,7 +238,7 @@ function MainPage() {
                 </div>
 
                 <a
-                  href="https://www.amazon.co.jp/"
+                  href="https://amzn.asia/d/060VbnCZ"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-block rounded-full bg-gradient-to-b from-[#fff2a8] to-[#e4bd4c] px-10 py-2 text-lg font-medium text-[#111827] shadow-md transition hover:-translate-y-1 hover:shadow-lg"
@@ -257,7 +257,7 @@ function MainPage() {
                 </div>
 
                 <a
-                  href="https://www.amazon.co.jp/"
+                  href="https://amzn.asia/d/0496Nyn0"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-block rounded-full bg-gradient-to-b from-[#fff2a8] to-[#e4bd4c] px-10 py-2 text-lg font-medium text-[#111827] shadow-md transition hover:-translate-y-1 hover:shadow-lg"
