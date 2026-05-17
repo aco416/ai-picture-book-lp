@@ -316,7 +316,7 @@ function MainPage() {
                   <label className="mb-2 block font-bold">お名前</label>
                   <input
                     type="text"
-                    placeholder="山田 花子"
+                    placeholder="田中 愛子"
                     className="w-full rounded-xl border border-gray-200 px-4 py-3"
                   />
                 </div>
