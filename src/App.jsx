@@ -79,13 +79,11 @@ function MainPage() {
                 style={{ fontFamily: 'serif' }}
               >
                 <span className="italic text-[#8bbd35]">AI</span>と出版の力で、<br />
-                あなたの「得意」を資<br />
-                産に変える。
+                あなたの「得意」を資産に変える<br />
               </h1>
 
               <p className="mt-8 text-xl leading-[2] text-[#4b5563]">
-                三姉妹の母として、初心者に寄り添うやさしい伴走スタイルで<br />
-                「出しておしまい」にしない収益導線づくりをサポートします。
+                三姉妹の母として、初心者に寄り添うやさしい伴走スタイルで、「出しておしまい」にしない収益導線づくりをサポートします。
               </p>
 
               <div className="mt-12">
@@ -176,9 +174,9 @@ function MainPage() {
                   AIの力を活用し、一瞬で目を引く広報手段を提供。あなたの活動をより多くの人に、より強く届けるための強力なツールとなります。
                 </p>
                 <ul className="space-y-2 text-gray-700">
-                  <li>・AI漫画制作（書籍・SNS・LP用）</li>
+                  <li>・AI漫画制作（自己紹介漫画・SNS用・LP用）</li>
                   <li>・Webページ制作（活動の拠点作り）</li>
-                  <li>・アプリ開発（集客を最大化する特典アプリ）</li>
+                  <li>・アプリ開発（集客を最大化する特典アプリ等）</li>
                 </ul>
               </div>
             </div>
@@ -203,8 +201,8 @@ function MainPage() {
               </div>
 
               <div className="rounded-3xl bg-[#f8f4ee] p-8 text-center">
-                <div className="text-5xl font-bold text-orange-500">4</div>
-                <p className="mt-3 font-bold">累計出版数</p>
+                <div className="text-5xl font-bold text-orange-500">38</div>
+                <p className="mt-3 font-bold">累計サポート書籍数</p>
               </div>
             </div>
 
@@ -261,7 +259,7 @@ function MainPage() {
 
             <div className="rounded-[2rem] bg-[#f8f4ee] p-8 shadow-sm">
               <p className="mb-8 text-center text-gray-700">
-                お気軽にご相談ください。2営業日以内にご返信いたします。
+                お気軽にご相談ください。
               </p>
 
               <form className="space-y-5">
@@ -269,7 +267,7 @@ function MainPage() {
                   <label className="mb-2 block font-bold">お名前</label>
                   <input
                     type="text"
-                    placeholder="山田 花子"
+                    placeholder="山田 愛子"
                     className="w-full rounded-xl border border-gray-200 px-4 py-3"
                   />
                 </div>
